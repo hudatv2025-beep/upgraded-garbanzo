@@ -182,6 +182,7 @@ service cloud.firestore {
 ---
 
 ## 📄 الترخيص
+.
 
 MIT License — استخدمه تجارياً أو شخصياً كما تشاء!
 
