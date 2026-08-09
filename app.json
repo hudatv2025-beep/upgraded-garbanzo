@@ -1,0 +1,32 @@
+{
+  "name": "tango-live-clone",
+  "displayName": "Tango Live Clone",
+  "expo": {
+    "name": "Tango Live Clone",
+    "slug": "tango-live-clone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f0f1e"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.yourcompany.tangolive",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.tangolive"
+    }
+  }
+}

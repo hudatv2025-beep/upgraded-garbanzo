@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "🔴 Tango Live — بناء APK"
+echo ""
+echo "⚠️ تأكد من:"
+echo "   1. npm install -g eas-cli"
+echo "   2. eas login (سجّل دخول بـ Expo account)"
+echo "   3. eas build:configure"
+echo ""
+echo "🚀 بناء APK:"
+echo "   eas build -p android --profile preview"
+echo ""
+echo "📥 بعد 5-10 دقائق، رح يجيك رابط تحميل APK!"
